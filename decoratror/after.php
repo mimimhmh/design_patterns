@@ -8,6 +8,10 @@ interface CarService
     public function getDescription();
 }
 
+/**
+ * Class BasicService
+ * Concrete Component
+ */
 class BasicService implements CarService
 {
 
@@ -74,7 +78,7 @@ class TireRotation implements CarService
     }
 }
 
- $service = new TireRotation(new OilChange(new BasicService()));
+$service = new TireRotation(new OilChange(new BasicService()));
 
 echo $service->getDescription();
 echo "<br>";
