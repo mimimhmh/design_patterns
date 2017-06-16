@@ -27,19 +27,26 @@ class BasicService implements CarService
 }
 
 /**
- * Class OilChange
- * Decorator
+ * Class AdditionalService
+ * Abstract decorator
  */
-class OilChange implements CarService
+abstract class AdditionalService implements CarService
 {
 
-    //injection
     protected $carService;
 
     public function __construct(CarService $carService) {
 
         $this->carService = $carService;
     }
+}
+
+/**
+ * Class OilChange
+ * Decorator
+ */
+class OilChange extends AdditionalService
+{
 
     public function getCost() {
 
@@ -56,16 +63,8 @@ class OilChange implements CarService
  * Class TireRotation
  * Decorator
  */
-class TireRotation implements CarService
+class TireRotation extends AdditionalService
 {
-
-    //injection
-    protected $carService;
-
-    public function __construct(CarService $carService) {
-
-        $this->carService = $carService;
-    }
 
     public function getCost() {
 
