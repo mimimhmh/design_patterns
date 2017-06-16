@@ -1,7 +1,31 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2017/6/16
- * Time: 16:04
- */
+
+
+class BasicInspection
+{
+
+    public function getCost() {
+
+        return 25;
+    }
+}
+
+class BasicInspectionAndOilChange
+{
+
+    public function getCost() {
+
+        return 25 + 19;
+    }
+}
+
+class BasicInspectionAndOilChangeAndTireRotation
+{
+
+    public function getCost() {
+
+        return 25 + 19 + 20;
+    }
+}
+
+echo (new BasicInspectionAndOilChangeAndTireRotation())->getCost();
