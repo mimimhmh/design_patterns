@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e1970f2e-4f29-4dce-8a9b-9a01605d2873" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChainOfResp/index.php" afterPath="$PROJECT_DIR$/ChainOfResp/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="PrimeFactors.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PrimeFactors.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PrimeFactors.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="868">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeFactorsSpec.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrimeFactorsSpec.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/PrimeFactorsSpec.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
+            <state relative-caret-position="1023">
               <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding />
             </state>
@@ -77,8 +75,8 @@
         <option value="$PROJECT_DIR$/Strategy/definition.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/ChainOfResp/index.php" />
-        <option value="$PROJECT_DIR$/src/PrimeFactors.php" />
         <option value="$PROJECT_DIR$/spec/PrimeFactorsSpec.php" />
+        <option value="$PROJECT_DIR$/src/PrimeFactors.php" />
       </list>
     </option>
   </component>
@@ -250,7 +248,7 @@
       <workItem from="1504265964877" duration="33000" />
       <workItem from="1504266055463" duration="3709000" />
       <workItem from="1504370713991" duration="684000" />
-      <workItem from="1504474126127" duration="5434000" />
+      <workItem from="1504474126127" duration="5659000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1497586004777</created>
@@ -301,16 +299,23 @@
       <option name="project" value="LOCAL" />
       <updated>1504477707987</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="PHPSpec">
+      <created>1504481058755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1504481058755</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17675000" />
+    <option name="totallyTimeSpent" value="17900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -342,7 +347,8 @@
     <MESSAGE value="adapter" />
     <MESSAGE value="Strategy" />
     <MESSAGE value="The Chain of Responsibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="The Chain of Responsibility" />
+    <MESSAGE value="PHPSpec" />
+    <option name="LAST_COMMIT_MESSAGE" value="PHPSpec" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -563,18 +569,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrimeFactors.php">
+    <entry file="file://$PROJECT_DIR$/spec/PrimeFactorsSpec.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="1023">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/PrimeFactorsSpec.php">
+    <entry file="file://$PROJECT_DIR$/src/PrimeFactors.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="868">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
