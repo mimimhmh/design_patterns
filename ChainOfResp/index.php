@@ -71,7 +71,7 @@ class HomeStatus
 
     public $lightsOff = true;
 
-    public $alarmOn = false;
+    public $alarmOn = true;
 
 }
 
@@ -85,4 +85,10 @@ $light->successWith($alarm);
 
 $lock->check(new HomeStatus());
 
+$primes = [];
 
+$primes = [2,2];
+
+$primes[] = 4;
+
+echo count($primes);
